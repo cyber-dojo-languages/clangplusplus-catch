@@ -10,6 +10,8 @@
     "cyber-dojo.sh"
   ],
 
+  "hidden_filenames": [ ".*\\.gcov", ".*\\.gcno" ],
+
   "image_name": "cyberdojofoundation/clangpp_catch",
 
   "max_seconds": 20,
