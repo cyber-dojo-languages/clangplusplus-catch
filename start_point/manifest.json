@@ -1,0 +1,18 @@
+
+{
+  "display_name": "C++ (clang++), Catch",
+
+  "visible_filenames": [
+    "hiker.tests.cpp",
+    "hiker.cpp",
+    "hiker.hpp",
+    "makefile",
+    "cyber-dojo.sh"
+  ],
+
+  "image_name": "cyberdojofoundation/clangpp_catch",
+
+  "max_seconds": 20,
+
+  "filename_extension": [ ".cpp", ".hpp" ]
+}
