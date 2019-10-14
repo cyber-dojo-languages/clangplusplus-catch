@@ -14,7 +14,7 @@
 
   "image_name": "cyberdojofoundation/clangpp_catch",
 
-  "max_seconds": 20,
+  "max_seconds": 10,
 
   "filename_extension": [ ".cpp", ".hpp", ".c", ".h" ]
 }
