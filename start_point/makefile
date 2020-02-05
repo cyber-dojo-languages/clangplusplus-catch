@@ -9,7 +9,7 @@ CXXFLAGS += -Wsequence-point
 CXXFLAGS += -Wmissing-noreturn
 CXXFLAGS += -Wunreachable-code
 
-# CXXFLAGS += -fprofile-arcs -ftest-coverage
+CXXFLAGS += -fprofile-arcs -ftest-coverage
 
 CXXFLAGS += -fsanitize=leak,address
 CXXFLAGS += -fno-sanitize-recover=undefined
