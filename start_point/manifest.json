@@ -1,7 +1,7 @@
 
 {
+  "image_name": "cyberdojofoundation/clangpp_catch",
   "display_name": "C++ (clang++), Catch",
-
   "visible_filenames": [
     "hiker.tests.cpp",
     "hiker.cpp",
@@ -9,12 +9,8 @@
     "makefile",
     "cyber-dojo.sh"
   ],
-
-  "hidden_filenames": [ ".*\\.gcov", ".*\\.gcno" ],
-
-  "image_name": "cyberdojofoundation/clangpp_catch",
-
+  "filename_extension": [ ".cpp", ".hpp", ".c", ".h" ],
   "max_seconds": 10,
-
-  "filename_extension": [ ".cpp", ".hpp", ".c", ".h" ]
+  "tab_size": 4,
+  "hidden_filenames": [ ".*\\.gcov", ".*\\.gcno" ]
 }
