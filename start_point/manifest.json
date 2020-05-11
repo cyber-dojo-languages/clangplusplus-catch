@@ -2,7 +2,8 @@
 {
   "image_name": "cyberdojofoundation/clangpp_catch",
   "display_name": "C++ (clang++), Catch",
-  "visible_filenames": [
+  "visible_filenames":
+  [
     "hiker.tests.cpp",
     "hiker.cpp",
     "hiker.hpp",
