@@ -16,3 +16,7 @@ curl \
    --remote-name         `# -O Write output to a file named as the remote file` \
      https://github.com/catchorg/Catch2/releases/download/v3.9.0/catch_amalgamated.cpp
 
+apt-get remove --yes curl
+cd /usr/src
+clang++ -fPIC -Wall -c catch_amalgamated.cpp
+mv /usr/src/catch_amalgamated.o /usr/lib
