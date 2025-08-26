@@ -1,6 +1,8 @@
-FROM ghcr.io/cyber-dojo-languages/clangplusplus:2dd7605
+FROM ghcr.io/cyber-dojo-languages/clangplusplus:148989c
 LABEL maintainer=jon@jaggersoft.com
 
+COPY catch_main.cpp /usr/src
 COPY install.sh .
 RUN ./install.sh && rm ./install.sh
+
 COPY red_amber_green.rb /usr/local/bin
