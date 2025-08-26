@@ -2,6 +2,8 @@
 
 mkdir /usr/include/catch2
 cd /usr/include/catch2
+apt-get install curl --yes
+
 curl \
    --remote-header-name  `# -J Use the header-provided filename` \
    --location            `# -L Follow redirects` \
